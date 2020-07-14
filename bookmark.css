@@ -1,0 +1,16 @@
+.topnav{
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.topnav li{
+    margin-right: 10%;
+    font-family: "Rubik" "sans-serif";
+}
+
+.topnav .st{
+    margin-right:28%;
+}
+
+
