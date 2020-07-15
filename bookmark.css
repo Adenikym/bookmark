@@ -1,3 +1,14 @@
+h2{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Rubik', sans-serif ;
+}
+
+h3{
+    text-align: center;
+}
+
+
 .topnav{
     display:flex;
     justify-content: flex-end;
@@ -6,11 +17,286 @@
 
 .topnav li{
     margin-right: 10%;
-    font-family: "Rubik" "sans-serif";
+    font-family: 'Rubik', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color: red;
+}
+ .box:hover{
+border: 1px solid red;
+border-radius: 5px;
+padding: 5px 10px;
+font-size: 1rem;
 }
 
 .topnav .st{
     margin-right:28%;
 }
+
+.intro p{
+    text-align: left;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro img{
+    width:50%;
+}
+
+.intro button{
+    width: auto;
+    height: auto;
+    padding: 8px 16px;
+    border-radius: 7px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+.btn1{
+    border: 1px solid  hsl(231, 69%, 60%);
+    background-color:  hsl(231, 69%, 60%);
+}
+
+.btn2{
+    border: 1px solid lightgrey;
+    background-color: lightgrey;
+}
+
+
+.Bmanager{
+    margin-left: 5%;
+    width: 45%;
+    text-align: left;
+    font-size: 1.2rem;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.features p{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+p{
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(229, 8%, 60%);
+    text-align: center;
+    
+}
+
+.midnav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.midnav li{
+    width: 20%;
+    font-size: 1.2rem;
+    font-family: 'Rubik', sans-serif ;
+}
+
+.click{
+    display: flex;
+ justify-content: space-between;
+}
+
+.click button{
+    margin-left: 33%;
+
+    padding: 8px 16px;
+    background-color: hsl(231, 78%, 51%);
+    border: 1px solid hsl(231, 78%, 51%) ;
+    border-radius: 4px;
+}
+
+
+.click img{
+    margin-left: 8%;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+}
+
+.chrome{
+    display: block;
+justify-content: center;
+    margin-top: 10px;
+    margin-right: 2%;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 15%;
+    height: auto;
+    box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.04) ,2px 2px 2px 2px rgba(0, 0, 0, 0.04);
+}
+
+.chrome img{
+    margin-top: 50px;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+.chrome button{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5px;
+    border: 1px solid hsl(231, 78%, 51%) ;
+    border-radius: 10px;
+    background-color: hsl(231, 78%, 51%) ;
+    padding: 8px 10px;
+    color: white;
+}
+
+.firefox{
+    display: block;
+    justify-content: center;
+        margin-top: 20px;
+        margin-right: 2%;
+        padding: 5px 10px;
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 15%;
+        height: auto;
+        box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.04) ,2px 2px 2px 2px rgba(0, 0, 0, 0.04);
+}
+
+.firefox button{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5px;
+    border: 1px solid hsl(231, 78%, 51%) ;
+    border-radius: 10px;
+    background-color: hsl(231, 78%, 51%) ;
+    padding: 8px 10px;
+    color: white;
+}
+
+.firefox img{
+    margin-top: 50px;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+.opera{
+    display: block;
+justify-content: center;
+    margin-top: 30px;
+    margin-right: 2%;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 15%;
+    height: auto;
+    box-shadow: inset 2px 2px 2px 2px rgba(0, 0, 0, 0.04) ,2px 2px 2px 2px rgba(0, 0, 0, 0.04);
+}
+
+.opera button{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 5px;
+    border: 1px solid hsl(231, 78%, 51%) ;
+    border-radius: 10px;
+    background-color: hsl(231, 78%, 51%) ;
+    padding: 8px 10px;
+    color: white;
+}
+
+.opera img{
+    margin-top: 50px;
+    margin-left: 23%;}
+
+.download hr{
+    border-top: dotted 5px hsl(229, 8%, 60%);
+    width: 100%;
+}
+
+.faq{
+font-family: 'Rubik', sans-serif ;
+
+
+}
+
+.questions{
+    list-style: none;
+}
+
+.questions li{
+width: 40%;
+margin-left: 30%;
+margin-right: 30%;
+text-align: left;
+font-family: 'Rubik', sans-serif;
+}
+
+.questions hr{
+    width: 40%;
+margin-left: 30%;
+margin-right: 30%;
+}
+
+.faq button{
+    padding: 10px 16px;
+    background-color: hsl(231, 78%, 51%);
+    border: 1px solid hsl(231, 78%, 51%) ;
+    border-radius: 4px;
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    color: white;
+}
+
+footer{
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    
+}
+
+footer nav{
+    background-color: hsl(229, 31%, 21%);
+
+}
+
+.joined{
+    margin-top: 60px;
+}
+
+.inquire{
+    background-color: hsl(231, 78%, 51%) ;
+    width: 100%;
+}
+
+.footnav{
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+.footnav li{
+    margin-right: 4%;
+}
+.footnav .one{
+    margin-left: 6% ;
+}
+
+
+
+
+
 
 

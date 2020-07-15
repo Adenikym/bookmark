@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="bookmark-landing-page-master/images/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="bookmark.css">
     <title>Bookmark landing page</title>
@@ -18,10 +18,10 @@
             
             <ul class="topnav">
                 <li class="st"><img src="bookmark-landing-page-master/images/logo-bookmark.svg" alt="bookmark logo"></li>
-                <li>FEATURES</li>
-                <li>PRICING</li>
-                <li>CONTACT</li>
-                <li>LOGIN</li>
+                <li><a href="#feat">FEATURES</a></li>
+                <li><a href="">PRICING</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a class="box" href="">LOGIN</a></li>
             </ul>
         </nav>
     </header>
@@ -38,11 +38,11 @@
     <div class="Bmanager">
  <h1>A Simple Bookmark Manager
 </h1>
-<p>A clean and simple interface to organize your favourite websites. Open a new 
-    browser tab and see your sites load instantly. Try it for free.</p>
+<p>A clean and simple interface to organize your favourite <br> websites. Open a new 
+    browser tab and see your sites load <br> instantly. Try it for free.</p>
 
-    <button>Get it on Chrome</button>
-    <button>Get it on Firefox</button>
+    <button class="btn1">Get it on Chrome</button>
+    <button class="btn2">Get it on Firefox</button>
     </div>
 
     <img src="bookmark-landing-page-master/images/illustration-hero.svg" alt="app illustration">
@@ -50,18 +50,26 @@
 
     <!--features-->
 
-    <section class="features">
+    <section id="feat" class="features">
+        <h2>Features</h2>
         <p>Our aim is to make it quick and easy for you to access your favourite websites. 
-            Your bookmarks sync between your devices so you can access them on the go.</p>
+            Your <br> bookmarks sync between your devices <br> so you can access them on the go.</p>
+            <br>
+            <br>
             <nav>
-                <ul>
-                    <li>Simple Bookmarking</li>
-                    <li>Speedy Searching</li>
-                    <li>Easy Sharing</li>
+                <ul class="midnav">
+                    <li><a href="">Simple Bookmarking</a></li>
+                    <li><a href="">Speedy Searching</a></li>
+                    <li><a href="">Easy Sharing</a></li>
                 </ul>
             </nav>
+            <br>
+    
 
-            <div>
+<hr>
+<br>
+<br>
+            <div class="click">
 
             <img src="bookmark-landing-page-master/images/illustration-features-tab-1.svg" alt="app illustration">
 
@@ -74,12 +82,16 @@
 
         </div>
     </section>
-
+<br>
+<br>
+<br>
+<br>
     <!--download-->
 
     <section class="download">
         <h2> Download the extension</h2>
-        <p>We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+       
+        <p>We’ve got more browsers in the pipeline. Please do let us know <br> if you’ve 
             got a favourite you’d like us to prioritize.</p>
 
             <div class="options">
@@ -88,61 +100,90 @@
 
                     <h3>Add to Chrome</h3>
                     <p>Minimum version 62</p>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
                     <button>Add & Install Extension</button>
                 </div>
                 <div class="firefox">
                     <img src="bookmark-landing-page-master/images/logo-firefox.svg" alt="firefox icon">
-                    <h3>Minimum version 55</h3>
+                    <h3>Add to Firefox</h3>
+                    <p>Minimum version 55</p>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
                     <button>Add & Install Extension</button>
                 </div>
                 <div class="opera">
                     <img src="bookmark-landing-page-master/images/logo-opera.svg" alt="opera icon">
-                    <h3>Minimum version 46</h3>
+                    <h3>Add to Opera</h3>
+                    <p>Minimum version 46</p>
+                    <br>
+                    <br>
+                    <hr>
+                    <br>
                     <button>Add & Install Extension</button>
                 </div>
             </div>
     </section>
-
+<br>
+<br>
+<br>
     <!--FAQs-->
 
     <section class="faq">
 
         <h2> Frequently Asked Questions</h2>
-        <br>
-        <p>Here are some of our FAQs. If you have any other questions you’d like 
+        
+        <p>Here are some of our FAQs. If you have any other questions <br> you’d like 
             answered please feel free to email us.</p>
 
+            <br>
+
             <ul class="questions">
+                <hr>
                 <li>What is Bookmark?</li>
+                <hr>
                 <li>How can I request a new browser?</li>
+                <hr>
                 <li>Is there a mobile app?</li>
+                <hr>
                 <li>What about other Chromium browsers?</li>
+                <hr>
             </ul>
+            <br>
+            <br>
 
             <button>More Info</button>
 
 
     </section>
+    <br>
+    <br>
+    <br>
+    <br>
 
     <!--footer-->
 
     <footer>
-        <p>35,000+ already joined</p>
+        <div class="inquire">
+        <p class="joined">35,000+ already joined</p>
         <br>
         <p>Stay up-to-date with what we’re doing</p>
         <br>
 
-        <div class="inquire">
+        
         <input type="text" placeholder="example@email/com">
         <button>Contact Us</button>
     </div>
-    <br>
-    <br>
+    
 
     <nav>
-        <img src="bookmark-landing-page-master/images/logo-bookmark.svg" alt="bookmark logo">
-        <ul>
-            <li>Features</li>
+        <img src="bookmark-landing-page-master/images/logo-bookmark.svg" alt="">
+        <ul class="footnav">
+            <li class="one">Features</li>
             <li>Pricing</li>
             <li>contact</li>
         </ul>
