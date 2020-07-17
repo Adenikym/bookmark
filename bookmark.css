@@ -8,15 +8,22 @@ h3{
     text-align: center;
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 .topnav{
     display:flex;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     list-style: none;
+    width: 40%;
 }
 
 .topnav li{
-    margin-right: 10%;
+
     font-family: 'Rubik', sans-serif;
 }
 
@@ -35,8 +42,13 @@ padding: 5px 10px;
 font-size: 1rem;
 }
 
-.topnav .st{
-    margin-right:28%;
+
+.menu  {
+    width: 5%;
+    display: none;
+
+    
+
 }
 
 .intro p{
@@ -102,6 +114,8 @@ p{
     list-style: none;
 }
 
+.appear{display: none;}
+
 .midnav li{
     width: 20%;
     font-size: 1.2rem;
@@ -124,6 +138,7 @@ p{
 
 
 .click img{
+    width: 40%;
     margin-left: 8%;
 }
 
@@ -232,22 +247,28 @@ font-family: 'Rubik', sans-serif ;
 
 }
 
-.questions{
-    list-style: none;
+figure{
+    display: flex;
+    justify-content: space-evenly ;
+    width: 75%;
 }
 
-.questions li{
-width: 40%;
-margin-left: 30%;
-margin-right: 30%;
-text-align: left;
-font-family: 'Rubik', sans-serif;
+#mybookmark{
+    display: block;
 }
 
-.questions hr{
-    width: 40%;
-margin-left: 30%;
-margin-right: 30%;
+figcaption{
+    width: 30%;
+}
+
+
+
+
+.new {
+    color: yellow;
+    width: 70%;
+margin-left: 15%;
+margin-right: 15%;
 }
 
 .faq button{
@@ -267,6 +288,10 @@ footer{
     
 }
 
+footer p{
+    color: white;  
+}
+
 footer nav{
     background-color: hsl(229, 31%, 21%);
 
@@ -277,7 +302,7 @@ footer nav{
 }
 
 .inquire{
-    background-color: hsl(231, 78%, 51%) ;
+    background-color: #00f ;
     width: 100%;
 }
 
@@ -293,6 +318,197 @@ footer nav{
 .footnav .one{
     margin-left: 6% ;
 }
+
+@media screen and (max-width: 868px){
+    .topnav li{
+        margin-right: 40px;}
+
+        
+}
+
+
+@media screen and (max-width: 670px){
+
+    nav{
+        
+        margin: 0;
+        width: 100%;
+    }
+
+    .topnav{
+        position: absolute;
+        right:0px;
+        height:92vh;
+        top: 2vh;
+        background-color:#000033 ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+
+    }
+
+    .none{
+        opacity: 1;
+        color: white;
+    }
+
+    .menu {
+        display: block !important;
+        cursor: pointer;
+    }
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity:0;
+        transform: translateX(50px)
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+    
+}
+
+@media screen and (max-width: 400px){
+    .intro{
+        display: block;
+    }
+
+    .intro img{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .bcontrol{
+        display: flex;
+    
+        justify-content: center;
+    }
+    .btn1{margin-right: 5%;}
+
+    .bcontrol button{
+        margin-bottom: 70px;
+        font-size: 0.6rem;
+        width: 40%;
+        height: auto;
+        padding: 3px 6px;
+    
+}
+.features .p1{
+    width: 90%;
+    margin-left: 5%;
+        margin-right: 5%;
+
+}
+
+.midnav{
+    display: block;
+
+}
+
+.midnav li{
+    width:80%;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.appear{
+    display: block;
+    width: 100%;
+}
+
+.click{
+    display: block;
+}
+
+.options{
+    display: block;
+
+}
+
+.options div{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.faq p{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.float button{
+    width: auto;
+    height: auto;
+    padding: 8px 16px;
+    border-radius: 7px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+.lastnav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+
+.footnav{
+    display: block;
+    font-size: 1.5rem;
+    
+    
+
+}
+
+.footnav li{
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-weight: 100;
+}
+
+.inquire button{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: auto;
+    padding: 8px 16px;
+    border-radius: 7px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+    background-color: #fe2c54;
+}
+
+input{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 8px 16px;
+    border: 1px solid #fe2c54;
+}
+
+}
+
+
 
 
 

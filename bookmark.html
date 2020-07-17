@@ -13,16 +13,25 @@
     <!--header section-->
 
     <header>
-        <nav>
+        <nav >
             <!--logo-->
-            
+            <div class="logo">
+            <img src="bookmark-landing-page-master/images/logo-bookmark.svg" alt="bookmark logo">
+        </div>
             <ul class="topnav">
-                <li class="st"><img src="bookmark-landing-page-master/images/logo-bookmark.svg" alt="bookmark logo"></li>
-                <li><a href="#feat">FEATURES</a></li>
-                <li><a href="">PRICING</a></li>
-                <li><a href="">CONTACT</a></li>
-                <li><a class="box" href="">LOGIN</a></li>
+                
+                <li class="none"><a href="#feat">FEATURES</a></li>
+                <li class="none"><a href="">PRICING</a></li>
+                <li class="none" ><a href="">CONTACT</a></li>
+                <li class="none"><a class="box" href="">LOGIN</a></li>
+            
             </ul>
+             
+            <div class="menu">
+            
+                <img class="burger" src="bookmark-landing-page-master/images/icon-hamburger.svg" alt="menu button">
+            
+            </div>
         </nav>
     </header>
 <br>
@@ -40,9 +49,10 @@
 </h1>
 <p>A clean and simple interface to organize your favourite <br> websites. Open a new 
     browser tab and see your sites load <br> instantly. Try it for free.</p>
-
+<div class="bcontrol">
     <button class="btn1">Get it on Chrome</button>
     <button class="btn2">Get it on Firefox</button>
+</div>
     </div>
 
     <img src="bookmark-landing-page-master/images/illustration-hero.svg" alt="app illustration">
@@ -52,15 +62,18 @@
 
     <section id="feat" class="features">
         <h2>Features</h2>
-        <p>Our aim is to make it quick and easy for you to access your favourite websites. 
+        <p class="p1">Our aim is to make it quick and easy for you to access your favourite websites. 
             Your <br> bookmarks sync between your devices <br> so you can access them on the go.</p>
             <br>
             <br>
             <nav>
                 <ul class="midnav">
                     <li><a href="">Simple Bookmarking</a></li>
+                    <hr class="appear">
                     <li><a href="">Speedy Searching</a></li>
+                    <hr class="appear">
                     <li><a href="">Easy Sharing</a></li>
+                    <hr class="appear">
                 </ul>
             </nav>
             <br>
@@ -142,24 +155,62 @@
 
             <br>
 
-            <ul class="questions">
-                <hr>
-                <li>What is Bookmark?</li>
-                <hr>
-                <li>How can I request a new browser?</li>
-                <hr>
-                <li>Is there a mobile app?</li>
-                <hr>
-                <li>What about other Chromium browsers?</li>
-                <hr>
-            </ul>
+            <section class="toggle">
+                <hr class="new">
+<figure>
+    <figcaption>What is Bookmark?</figcaption>
+    
+    <img onclick="myBook()" src="bookmark-landing-page-master/images/icon-arrow.svg" alt="">
+    
+
+</figure>
+<p id="mybookmark">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Fusce tincidunt 
+    justo eget ultricies <br> fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+
+<hr class="new">
+
+<figure >
+    <figcaption>How can I request a new browser?
+    </figcaption>
+    <img onclick="myBrow()" src="bookmark-landing-page-master/images/icon-arrow.svg" alt="">
+<
+</figure>
+<p id="mybrowser">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Fusce tincidunt 
+    justo eget ultricies <br> fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+<hr class="new">
+
+<figure>
+    <figcaption>Is there a mobile app?</figcaption>
+    
+    <img onclick="myMob()" src="bookmark-landing-page-master/images/icon-arrow.svg" alt="">
+
+</figure>
+<p id="myMobile">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Fusce tincidunt 
+    justo eget ultricies <br> fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+<hr class="new">
+<figure>
+<figcaption>What about other Chromium browsers?
+</figcaption>
+
+    <img onclick="myFunction()"src="bookmark-landing-page-master/images/icon-arrow.svg" alt="">
+
+</figure>
+<p id="myChromium">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit. Fusce tincidunt 
+    justo eget ultricies <br> fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+
+<hr class="new">
+
+
+
+            </section>
             <br>
             <br>
+            <div class="float">
 
-            <button>More Info</button>
+            <button >More Info</button>
 
 
-    </section>
+        </div>
     <br>
     <br>
     <br>
@@ -180,7 +231,7 @@
     </div>
     
 
-    <nav>
+    <nav class="lastnav">
         <img src="bookmark-landing-page-master/images/logo-bookmark.svg" alt="">
         <ul class="footnav">
             <li class="one">Features</li>
@@ -190,5 +241,9 @@
     </nav>
     </footer>
 </main>
+
+
+
+<script src="bookmark.js"></script>
 </body>
 </html>
